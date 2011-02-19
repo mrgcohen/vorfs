@@ -1,0 +1,178 @@
+﻿body
+{
+	background-color: #DDDDDD;
+}
+
+#wrapper 
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 600px;
+	width: 75%;
+	text-align: center;
+	border: solid;
+	border-radius: 10px;
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;
+	background: #b6b6b6;
+}
+
+header, #header 
+{
+	margin: 0 0 15px 0;
+	background: #e3e3e3;
+	font-size: 15px;
+	text-align: left;
+	position: relative;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header img, #header img
+{
+	display: inline;
+	width: 30%;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#login_form
+{
+	display: inline;
+	float: left;
+	position: absolute;
+	top: 25%;
+	/*margin-left: 3%;*/
+	margin-left: 15px;
+}
+
+#create
+{
+	float: right;
+	display: inline;
+	position: absolute;
+	top: 25%;
+	margin-left: 53%;
+}
+
+input[type=submit], form a
+{
+	font-family: 'Yanone Kaffeesatz', arial, serif;
+	font-size:16px;
+	color:#000;
+	text-decoration:none;
+	width:60x;
+	padding:5px;
+	border:1px solid #DDD;
+	text-align:center;
+
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+
+	background:#33FF66;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(red), to(green));
+	background:-moz-linear-gradient(0% 90% 90deg, #65941F, #98bf21);
+}
+
+input[type=submit]:hover, form a:hover
+{
+	color:#fff;
+	border-color:#3278BE;
+	background:#4195DD;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4195DD), to(#003C82));
+	background:-moz-linear-gradient(0% 90% 90deg, #33FF66, #99FF66);
+	cursor: pointer;
+}
+
+input[type=submit]:active
+{
+	background:#4195DD;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#003C82), to(#4195DD));
+	background:-moz-linear-gradient(0% 90% 90deg, #669933, #66FF33);
+}
+
+#container img
+{
+	width: 90%;
+}
+
+/*
+#leftcol 
+{
+	float: left;
+	width: 60%;
+	text-align: left;}
+
+#leftcol img
+{
+	width: 110%;
+}
+*/
+
+h1
+{
+	
+	font-size: 30px;
+}
+
+p
+{
+	font-size: 14px;
+}
+
+/*
+#rightcol 
+{
+	float: right;
+	width: 32%;
+	text-align: center;
+	font-size: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*/
+
+
+a.button
+{
+	font-family: 'Yanone Kaffeesatz', arial, serif;
+	font-size:16px;
+	color:#000;
+	text-decoration:none;
+	width:60px;
+	padding:5px;
+	border:1px solid #DDD;
+	text-align:center;
+
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+
+	background:#33FF66;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(red), to(green));
+	background:-moz-linear-gradient(0% 90% 90deg, #65941F, #98bf21);
+}
+
+a.button:hover
+{
+	color:#fff;
+	border-color:#3278BE;
+	background:#4195DD;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4195DD), to(#003C82));
+	background:-moz-linear-gradient(0% 90% 90deg, #33FF66, #99FF66);
+
+}
+
+a.button:active
+{
+	background:#4195DD;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#003C82), to(#4195DD));
+	background:-moz-linear-gradient(0% 90% 90deg, #669933, #66FF33);
+}
+
